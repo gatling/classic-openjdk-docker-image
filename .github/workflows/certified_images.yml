@@ -19,7 +19,7 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       # Set up emulator for non-native platforms (the GH runners are on amd64 architecture)
       - name: Set up QEMU
